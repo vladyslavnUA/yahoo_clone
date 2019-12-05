@@ -6,45 +6,36 @@
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
-  <title>mailPrivate</title>
+  <title>MailPrivate | Main </title>
 </head>
 <body>
-  <header class="cd-main-header js-cd-main-header">
+  <header class="cd-main-header js-cd-main-header navbarone">
     <div class="cd-logo-wrapper">
       <a href="#0" class="cd-logo"><img src="assets/img/mailprivate.png" alt="Logo"></a>
     </div>
-    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-        <!-- <a class="navbar-brand" href="#">mailPrivate</a> -->
-        <div class="cd-search js-cd-search">
-            <form>
-                <input class="reset" type="search" placeholder="enter anything...">
-                <button type="submit">search</button>
-            </form>
-        </div>
-    
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-        </div>
-    </nav>
-    <div class="cd-search js-cd-search">
-      <form>
-        <input class="reset" type="search" placeholder="search anything...">
-      </form>
-    </div>
+  <!-- <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">mailPrivate</a>
+      <div class="cd-search js-cd-search">
+          <form>
+              <input class="reset" type="search" placeholder="enter anything...">
+              <button type="submit">search</button>
+          </form>
+      </div>
   
-    <button class="reset cd-nav-trigger js-cd-nav-trigger" aria-label="Toggle menu"><span></span></button>
-  
+      <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+      </div>
+  </nav> -->
+
     <ul class="cd-nav__list js-cd-nav__list">
-      <li class="cd-nav__item"><a href="#0">Tour</a></li>
-      <li class="cd-nav__item"><a href="#0">Support</a></li>
       <li class="cd-nav__item cd-nav__item--has-children cd-nav__item--account js-cd-item--has-children">
         <a href="#0">
           <img src="assets/img/cd-avatar.svg" alt="avatar">
           <span>Account</span>
         </a>
-    
+
         <ul class="cd-nav__sub-list">
           <li class="cd-nav__sub-item"><a href="#0">My Account</a></li>
           <li class="cd-nav__sub-item"><a href="#0">Edit Account</a></li>
@@ -54,7 +45,7 @@
     </ul>
   </header> <!-- .cd-main-header -->
   
-  <main class="cd-main-content">
+  <main class="cd-main-content borderone">
     <nav class="cd-side-nav js-cd-side-nav">
       <ul class="cd-side__list js-cd-side__list">
         <li class="cd-side__label"><span>Main</span></li>
@@ -131,14 +122,23 @@
     </nav>
   
     <div class="cd-content-wrapper">
-      <div class="text-component text-center">
-        <h1>Welcome!</h1>
-        <p><a href="#" target="_blank">Sign in to get your mail!</a></p>
+      <div class="row">
+        <div class="col_one">
+          <style>
+            .col_one {
+              text-align: center;
+              width: 100%;
+            }
+          </style>
+          Welcome to MailPrivate
+          <p> </p>
+          <a href="#" target="_blank"><p>Sign in to see your mail</p></a>
+        </div>
+        <div class="col_two">
+
+        </div>
       </div>
     </div> <!-- .content-wrapper -->
   </main> <!-- .cd-main-content -->
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/menu-aim.js"></script>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
